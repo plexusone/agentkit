@@ -8,7 +8,7 @@ require (
 	github.com/agentplexus/go-phoenix v0.1.1
 	github.com/agentplexus/omnillm v0.11.0
 	github.com/agentplexus/omniobserve v0.5.1
-	github.com/agentplexus/omnivault v0.2.1
+	github.com/agentplexus/omnivault v0.2.2
 	github.com/agentplexus/vaultguard v0.2.0
 	github.com/cloudwego/eino v0.7.34
 	github.com/go-playground/validator/v10 v10.30.1
@@ -97,12 +97,12 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.1 // indirect
 	golang.org/x/arch v0.23.0 // indirect
-	golang.org/x/crypto v0.47.0 // indirect
+	golang.org/x/crypto v0.48.0 // indirect
 	golang.org/x/exp v0.0.0-20260112195511-716be5621a96 // indirect
 	golang.org/x/net v0.49.0 // indirect
 	golang.org/x/sync v0.19.0 // indirect
-	golang.org/x/sys v0.40.0 // indirect
-	golang.org/x/text v0.33.0 // indirect
+	golang.org/x/sys v0.41.0 // indirect
+	golang.org/x/text v0.34.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20260128011058-8636f8732409 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260128011058-8636f8732409 // indirect
 	google.golang.org/grpc v1.78.0 // indirect
