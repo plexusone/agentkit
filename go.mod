@@ -3,7 +3,7 @@ module github.com/agentplexus/agentkit
 go 1.25.5
 
 require (
-	github.com/a2aproject/a2a-go v0.3.6
+	github.com/a2aproject/a2a-go v0.3.7
 	github.com/agentplexus/go-opik v0.5.1
 	github.com/agentplexus/go-phoenix v0.1.1
 	github.com/agentplexus/omnillm v0.11.0
