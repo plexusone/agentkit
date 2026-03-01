@@ -5,20 +5,20 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/agentplexus/omnillm"
-	omnillmhook "github.com/agentplexus/omniobserve/integrations/omnillm"
-	"github.com/agentplexus/omniobserve/llmops"
+	"github.com/plexusone/omnillm"
+	omnillmhook "github.com/plexusone/omniobserve/integrations/omnillm"
+	"github.com/plexusone/omniobserve/llmops"
 	"google.golang.org/adk/model"
 	"google.golang.org/adk/model/gemini"
 	"google.golang.org/genai"
 
-	"github.com/agentplexus/agentkit/config"
-	"github.com/agentplexus/agentkit/llm/adapters"
+	"github.com/plexusone/agentkit/config"
+	"github.com/plexusone/agentkit/llm/adapters"
 
 	// Import observability providers (driver registration via init())
-	_ "github.com/agentplexus/go-opik/llmops"
-	_ "github.com/agentplexus/go-phoenix/llmops"
-	_ "github.com/agentplexus/omniobserve/llmops/langfuse"
+	_ "github.com/plexusone/omniobserve/llmops/langfuse"
+	_ "github.com/plexusone/opik-go/llmops"
+	_ "github.com/plexusone/phoenix-go/llmops"
 )
 
 // ModelFactory creates LLM models based on configuration.

@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/agentplexus/omnivault"
-	"github.com/agentplexus/omnivault/vault"
+	"github.com/plexusone/omnivault"
+	"github.com/plexusone/omnivault/vault"
 )
 
 // SecretsProvider specifies the secrets backend to use.

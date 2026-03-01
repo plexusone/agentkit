@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/agentplexus/agentkit/platforms/local"
+	"github.com/plexusone/agentkit/platforms/local"
 )
 
 const (

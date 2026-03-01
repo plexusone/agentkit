@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"iter"
 
-	"github.com/agentplexus/omnillm"
-	"github.com/agentplexus/omnillm/provider"
+	"github.com/plexusone/omnillm"
+	"github.com/plexusone/omnillm/provider"
 	"google.golang.org/adk/model"
 	"google.golang.org/genai"
 )
@@ -15,7 +15,7 @@ import (
 // OmniLLMAdapterConfig holds configuration for creating a OmniLLM adapter.
 type OmniLLMAdapterConfig struct {
 	ProviderName      string
-	APIKey            string
+	APIKey            string //nolint:gosec // G117: Config needs API key field
 	ModelName         string
 	ObservabilityHook omnillm.ObservabilityHook
 }

@@ -38,7 +38,7 @@ agentkit/
 ## Installation
 
 ```bash
-go get github.com/agentplexus/agentkit
+go get github.com/plexusone/agentkit
 ```
 
 ## Quick Start
@@ -51,10 +51,10 @@ package main
 import (
     "context"
 
-    "github.com/agentplexus/agentkit/a2a"
-    "github.com/agentplexus/agentkit/agent"
-    "github.com/agentplexus/agentkit/config"
-    "github.com/agentplexus/agentkit/httpserver"
+    "github.com/plexusone/agentkit/a2a"
+    "github.com/plexusone/agentkit/agent"
+    "github.com/plexusone/agentkit/config"
+    "github.com/plexusone/agentkit/httpserver"
 )
 
 func main() {
@@ -89,7 +89,7 @@ func main() {
 ### A2A Server Factory
 
 ```go
-import "github.com/agentplexus/agentkit/a2a"
+import "github.com/plexusone/agentkit/a2a"
 
 // Create and start A2A server
 server, _ := a2a.NewServer(a2a.Config{
@@ -112,7 +112,7 @@ server.Stop(ctx)      // Graceful shutdown
 ### HTTP Server Factory
 
 ```go
-import "github.com/agentplexus/agentkit/httpserver"
+import "github.com/plexusone/agentkit/httpserver"
 
 // Config-based
 server, _ := httpserver.New(httpserver.Config{
@@ -139,8 +139,8 @@ server.Start()
 
 ```go
 import (
-    "github.com/agentplexus/agentkit/agent"
-    "github.com/agentplexus/agentkit/config"
+    "github.com/plexusone/agentkit/agent"
+    "github.com/plexusone/agentkit/config"
 )
 
 cfg := config.LoadConfig()
@@ -177,7 +177,7 @@ log.Printf("Security score: %d", secCfg.SecurityResult().Score)
 ```go
 import (
     "github.com/cloudwego/eino/compose"
-    "github.com/agentplexus/agentkit/orchestration"
+    "github.com/plexusone/agentkit/orchestration"
 )
 
 // Build workflow graph
@@ -221,7 +221,7 @@ AgentKit supports two deployment runtimes:
 ### Kubernetes Deployment
 
 ```go
-import "github.com/agentplexus/agentkit/platforms/kubernetes"
+import "github.com/plexusone/agentkit/platforms/kubernetes"
 
 // Load and validate Helm values
 values, errs := kubernetes.LoadAndValidate("values.yaml")
@@ -270,7 +270,7 @@ vaultguard:
 ### AWS AgentCore Deployment
 
 ```go
-import "github.com/agentplexus/agentkit/platforms/agentcore"
+import "github.com/plexusone/agentkit/platforms/agentcore"
 
 // Simple setup
 server := agentcore.NewBuilder().
@@ -469,15 +469,15 @@ AgentKit has companion modules for Infrastructure-as-Code (IaC) deployment:
 
 | Module | Purpose | Dependencies |
 |--------|---------|--------------|
-| [agentkit-aws-cdk](https://github.com/agentplexus/agentkit-aws-cdk) | AWS CDK constructs for AgentCore | 21 |
-| [agentkit-aws-pulumi](https://github.com/agentplexus/agentkit-aws-pulumi) | Pulumi components for AgentCore | 340 |
+| [agentkit-aws-cdk](https://github.com/plexusone/agentkit-aws-cdk) | AWS CDK constructs for AgentCore | 21 |
+| [agentkit-aws-pulumi](https://github.com/plexusone/agentkit-aws-pulumi) | Pulumi components for AgentCore | 340 |
 
 All modules share the same YAML/JSON configuration schema from `platforms/agentcore/iac/`.
 
 For pure CloudFormation (no CDK/Pulumi runtime), use the built-in generator:
 
 ```go
-import "github.com/agentplexus/agentkit/platforms/agentcore/iac"
+import "github.com/plexusone/agentkit/platforms/agentcore/iac"
 
 config, _ := iac.LoadStackConfigFromFile("config.yaml")
 iac.GenerateCloudFormationFile(config, "template.yaml")
@@ -487,8 +487,8 @@ See [ROADMAP.md](ROADMAP.md) for planned modules including Terraform support.
 
 ## Dependencies
 
-- [OmniLLM](https://github.com/agentplexus/omnillm) - Multi-provider LLM abstraction
-- [VaultGuard](https://github.com/agentplexus/vaultguard) - Security-gated credentials
+- [OmniLLM](https://github.com/plexusone/omnillm) - Multi-provider LLM abstraction
+- [VaultGuard](https://github.com/plexusone/vaultguard) - Security-gated credentials
 - [Eino](https://github.com/cloudwego/eino) - Graph-based orchestration
 - [Google ADK](https://google.golang.org/adk) - Agent Development Kit
 - [a2a-go](https://github.com/a2aserver/a2a-go) - A2A protocol implementation
@@ -497,15 +497,15 @@ See [ROADMAP.md](ROADMAP.md) for planned modules including Terraform support.
 
 MIT License
 
- [build-status-svg]: https://github.com/agentplexus/agentkit/actions/workflows/ci.yaml/badge.svg?branch=main
- [build-status-url]: https://github.com/agentplexus/agentkit/actions/workflows/ci.yaml
- [lint-status-svg]: https://github.com/agentplexus/agentkit/actions/workflows/lint.yaml/badge.svg?branch=main
- [lint-status-url]: https://github.com/agentplexus/agentkit/actions/workflows/lint.yaml
- [goreport-svg]: https://goreportcard.com/badge/github.com/agentplexus/agentkit
- [goreport-url]: https://goreportcard.com/report/github.com/agentplexus/agentkit
- [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/agentplexus/agentkit
- [docs-godoc-url]: https://pkg.go.dev/github.com/agentplexus/agentkit
+ [build-status-svg]: https://github.com/plexusone/agentkit/actions/workflows/ci.yaml/badge.svg?branch=main
+ [build-status-url]: https://github.com/plexusone/agentkit/actions/workflows/ci.yaml
+ [lint-status-svg]: https://github.com/plexusone/agentkit/actions/workflows/lint.yaml/badge.svg?branch=main
+ [lint-status-url]: https://github.com/plexusone/agentkit/actions/workflows/lint.yaml
+ [goreport-svg]: https://goreportcard.com/badge/github.com/plexusone/agentkit
+ [goreport-url]: https://goreportcard.com/report/github.com/plexusone/agentkit
+ [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/plexusone/agentkit
+ [docs-godoc-url]: https://pkg.go.dev/github.com/plexusone/agentkit
  [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
- [license-url]: https://github.com/agentplexus/agentkit/blob/master/LICENSE
- [used-by-svg]: https://sourcegraph.com/github.com/agentplexus/agentkit/-/badge.svg
- [used-by-url]: https://sourcegraph.com/github.com/agentplexus/agentkit?badge
+ [license-url]: https://github.com/plexusone/agentkit/blob/master/LICENSE
+ [used-by-svg]: https://sourcegraph.com/github.com/plexusone/agentkit/-/badge.svg
+ [used-by-url]: https://sourcegraph.com/github.com/plexusone/agentkit?badge

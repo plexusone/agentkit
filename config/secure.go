@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/agentplexus/vaultguard"
+	"github.com/plexusone/vaultguard"
 )
 
 // SecureConfig wraps Config with VaultGuard for secure credential access

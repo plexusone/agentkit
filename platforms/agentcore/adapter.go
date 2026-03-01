@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/agentplexus/agentkit/orchestration"
+	"github.com/plexusone/agentkit/orchestration"
 )
 
 // ExecutorAdapter wraps an AgentKit Executor to implement the Agent interface.

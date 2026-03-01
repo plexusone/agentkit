@@ -11,7 +11,7 @@ import (
 
 	"github.com/cloudwego/eino/compose"
 
-	agenthttp "github.com/agentplexus/agentkit/http"
+	agenthttp "github.com/plexusone/agentkit/http"
 )
 
 // GraphBuilder helps construct Eino workflow graphs.

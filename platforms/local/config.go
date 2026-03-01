@@ -85,7 +85,7 @@ type LLMConfig struct {
 	Model string `yaml:"model" json:"model"`
 
 	// APIKey is the API key (can use env var reference like ${OPENAI_API_KEY}).
-	APIKey string `yaml:"api_key,omitempty" json:"api_key,omitempty"`
+	APIKey string `yaml:"api_key,omitempty" json:"api_key,omitempty"` //nolint:gosec // G117: Config needs API key field
 
 	// BaseURL overrides the API base URL.
 	BaseURL string `yaml:"base_url,omitempty" json:"base_url,omitempty"`

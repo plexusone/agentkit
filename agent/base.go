@@ -12,8 +12,8 @@ import (
 	"google.golang.org/adk/agent"
 	"google.golang.org/adk/model"
 
-	"github.com/agentplexus/agentkit/config"
-	"github.com/agentplexus/agentkit/llm"
+	"github.com/plexusone/agentkit/config"
+	"github.com/plexusone/agentkit/llm"
 )
 
 // BaseAgent provides common functionality for all agents.
@@ -94,7 +94,7 @@ func (ba *BaseAgent) FetchURL(ctx context.Context, url string, maxSizeMB int) (s
 
 	req.Header.Set("User-Agent", fmt.Sprintf("AgentKit/%s", ba.Name))
 
-	resp, err := ba.Client.Do(req)
+	resp, err := ba.Client.Do(req) //nolint:gosec // G704: URL provided by SDK user
 	if err != nil {
 		return "", fmt.Errorf("failed to fetch URL: %w", err)
 	}

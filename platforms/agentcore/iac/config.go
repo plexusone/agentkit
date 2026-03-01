@@ -5,9 +5,9 @@
 // can be defined in Go code, JSON, or YAML files.
 //
 // Four deployment approaches are supported:
-//  1. CDK Go constructs - via github.com/agentplexus/agentkit-aws-cdk
+//  1. CDK Go constructs - via github.com/plexusone/agentkit-aws-cdk
 //  2. CDK + JSON/YAML config - configuration files with minimal CDK wrapper
-//  3. Pulumi - via github.com/agentplexus/agentkit-aws-pulumi
+//  3. Pulumi - via github.com/plexusone/agentkit-aws-pulumi
 //  4. Pure CloudFormation - generate CF templates, deploy with AWS CLI
 //
 // Example usage:

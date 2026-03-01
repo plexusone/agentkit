@@ -131,9 +131,9 @@ func (s *Server) Start(ctx context.Context) error {
 		_, _ = w.Write([]byte("OK"))
 	})
 
-	log.Printf("[A2A] %s server starting on %s", s.agent.Name(), s.baseURL.String())
-	log.Printf("[A2A]   Agent Card: %s%s", s.baseURL.String(), a2asrv.WellKnownAgentCardPath)
-	log.Printf("[A2A]   Invoke: %s%s", s.baseURL.String(), s.config.InvokePath)
+	log.Printf("[A2A] %s server starting on %s", s.agent.Name(), s.baseURL.String())          //nolint:gosec // G706: Server startup log
+	log.Printf("[A2A]   Agent Card: %s%s", s.baseURL.String(), a2asrv.WellKnownAgentCardPath) //nolint:gosec // G706: Server startup log
+	log.Printf("[A2A]   Invoke: %s%s", s.baseURL.String(), s.config.InvokePath)               //nolint:gosec // G706: Server startup log
 
 	s.httpServer = &http.Server{
 		Handler:           mux,

@@ -1,8 +1,28 @@
 {
-  "ir_version": "1.0",
+  "irVersion": "1.0",
   "project": "agentkit",
-  "repository": "https://github.com/agentplexus/agentkit",
+  "repository": "https://github.com/plexusone/agentkit",
+  "versioning": "semver",
+  "commitConvention": "conventional",
   "releases": [
+    {
+      "version": "v0.5.0",
+      "date": "2026-03-01",
+      "highlights": [
+        { "description": "Organization rename from agentplexus to plexusone" }
+      ],
+      "changed": [
+        { "description": "**Breaking**: Module path changed from `github.com/agentplexus/agentkit` to `github.com/plexusone/agentkit`" }
+      ],
+      "dependencies": [
+        { "description": "Upgraded `github.com/plexusone/opik-go` to v0.6.0 (renamed from go-opik)" },
+        { "description": "Upgraded `github.com/plexusone/phoenix-go` to v0.2.0 (renamed from go-phoenix)" },
+        { "description": "Upgraded `github.com/plexusone/omnillm` to v0.12.0" },
+        { "description": "Upgraded `github.com/plexusone/omniobserve` to v0.7.0" },
+        { "description": "Upgraded `github.com/plexusone/omnivault` to v0.3.0" },
+        { "description": "Upgraded `github.com/plexusone/vaultguard` to v0.3.0" }
+      ]
+    },
     {
       "version": "v0.4.0",
       "date": "2026-02-02",
@@ -62,7 +82,7 @@
         { "description": "IaC configuration package for AgentCore deployments" }
       ],
       "changed": [
-        { "description": "Bump `github.com/agentplexus/vaultguard` from 0.1.0 to 0.2.0", "component": "vaultguard", "version": "0.2.0" }
+        { "description": "Bump `github.com/agentplexus/vaultguard` from 0.1.0 to 0.2.0" }
       ]
     },
     {
@@ -80,7 +100,7 @@
         { "description": "Configuration management utilities" }
       ],
       "changed": [
-        { "description": "Bump `github.com/cloudwego/eino` from 0.7.14 to 0.7.15", "component": "eino", "version": "0.7.15" }
+        { "description": "Bump `github.com/cloudwego/eino` from 0.7.14 to 0.7.15" }
       ],
       "fixed": [
         { "description": "Remove unused error return from `loadSecureCredentials`" }

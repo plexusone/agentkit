@@ -23,7 +23,7 @@ func PostJSON(ctx context.Context, client *http.Client, url string, request inte
 	}
 	httpReq.Header.Set("Content-Type", "application/json")
 
-	resp, err := client.Do(httpReq)
+	resp, err := client.Do(httpReq) //nolint:gosec // G704: URL provided by SDK user
 	if err != nil {
 		return fmt.Errorf("request failed: %w", err)
 	}
@@ -49,7 +49,7 @@ func GetJSON(ctx context.Context, client *http.Client, url string, response inte
 	}
 	httpReq.Header.Set("Accept", "application/json")
 
-	resp, err := client.Do(httpReq)
+	resp, err := client.Do(httpReq) //nolint:gosec // G704: URL provided by SDK user
 	if err != nil {
 		return fmt.Errorf("request failed: %w", err)
 	}
@@ -75,7 +75,7 @@ func HealthCheck(ctx context.Context, client *http.Client, baseURL string) error
 		return fmt.Errorf("failed to create request: %w", err)
 	}
 
-	resp, err := client.Do(httpReq)
+	resp, err := client.Do(httpReq) //nolint:gosec // G704: URL provided by SDK user
 	if err != nil {
 		return fmt.Errorf("health check failed: %w", err)
 	}
