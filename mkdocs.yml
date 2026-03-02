@@ -72,6 +72,9 @@ nav:
     - http: packages/http.md
   - Migration Guide: migration.md
   - Benefits: benefits.md
+  - Design:
+    - Local Platform PRD: design/local-platform/prd.md
+    - Local Platform TRD: design/local-platform/trd.md
   - Releases:
     - v0.5.0: releases/v0.5.0.md
     - v0.4.0: releases/v0.4.0.md

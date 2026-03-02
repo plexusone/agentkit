@@ -1,0 +1,35 @@
+// Custom tools for {{.TeamName}}.
+// This file is generated once and can be modified.
+// Add your custom tool implementations here.
+
+package main
+
+import (
+	"fmt"
+)
+
+// RegisterCustomTools registers custom tools with the team.
+// Add your custom tool registrations here.
+func RegisterCustomTools(team *Team) {
+	// Example: Register a custom GitHub tool
+	// team.RegisterTool(&GitHubReleaseTool{token: os.Getenv("GITHUB_TOKEN")})
+
+	// Example: Register a custom changelog tool
+	// team.RegisterTool(&ChangelogParserTool{})
+}
+
+// --- Custom Tool Implementation ---
+// To add a custom tool:
+//
+// 1. Create a struct that implements local.Tool interface:
+//    - Name() string
+//    - Description() string
+//    - Execute(ctx context.Context, args map[string]any) (any, error)
+//
+// 2. Register it in RegisterCustomTools above:
+//    team.RegisterTool(&MyTool{})
+//
+// See github.com/plexusone/agentkit/platforms/local for Tool interface.
+
+// _ ensures the file compiles even when empty
+var _ = fmt.Sprintf

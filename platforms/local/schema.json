@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/agentplexus/agentkit/main/platforms/local/schema.json",
+  "$id": "https://raw.githubusercontent.com/plexusone/agentkit/main/platforms/local/schema.json",
   "title": "AgentKit Local Configuration",
   "description": "Configuration schema for agentkit local embedded mode, enabling CLI assistants to orchestrate multi-agent teams via MCP.",
   "type": "object",
