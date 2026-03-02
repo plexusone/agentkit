@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"strings"
 )
 
 // Server implements the AWS AgentCore HTTP contract.
@@ -131,8 +132,9 @@ func (s *Server) handleInvocations(w http.ResponseWriter, r *http.Request) {
 	}
 
 	if s.config.EnableRequestLogging && s.config.EnableSessionTracking {
+		safeSessionID := strings.ReplaceAll(strings.ReplaceAll(req.SessionID, "\n", ""), "\r", "")
 		log.Printf("[AgentCore] Invocation complete: session=%s output_len=%d", //nolint:gosec // G706: Internal logging
-			req.SessionID, len(resp.Output))
+			safeSessionID, len(resp.Output))
 	}
 }
 
