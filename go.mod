@@ -7,7 +7,7 @@ require (
 	github.com/cloudwego/eino v0.8.4
 	github.com/go-playground/validator/v10 v10.30.1
 	github.com/grokify/mogo v0.73.5
-	github.com/plexusone/omnillm v0.13.0
+	github.com/plexusone/omnillm v0.14.0
 	github.com/plexusone/omniobserve v0.8.0
 	github.com/plexusone/omnivault v0.3.0
 	github.com/plexusone/opik-go v0.6.0

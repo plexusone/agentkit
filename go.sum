@@ -155,8 +155,8 @@ github.com/pelletier/go-toml/v2 v2.2.4/go.mod h1:2gIqNv+qfxSVS7cM2xJQKtLSTLUE9V8
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
-github.com/plexusone/omnillm v0.13.0 h1:9wA0OmRAmPK9D+d+2vircFWXafDajurwUhCWmb3Pc8g=
-github.com/plexusone/omnillm v0.13.0/go.mod h1:PV+UHu6H2EAAmTpVnARRaV70DGoFMuOLxjR9cbboPkI=
+github.com/plexusone/omnillm v0.14.0 h1:e+8NXy5/2iidbFZ/WVmkpHV52LnPJ91pJyocZVFmXLc=
+github.com/plexusone/omnillm v0.14.0/go.mod h1:ukaKWwNIC88Yb4przvwf76bbkEcMvNbsJr5/zea2V/0=
 github.com/plexusone/omniobserve v0.8.0 h1:L+nXU8TZrRwKh4KWzAtHVP/tEqopfEMBn9dIZDlqse4=
 github.com/plexusone/omniobserve v0.8.0/go.mod h1:52TqB66Ns4Zgh4t7/ilMmCBdXcUHqjqRIbSGVBGCmK0=
 github.com/plexusone/omnivault v0.3.0 h1:58dKSzhGVTO786kdL8zOkfTrqND+0qqwvsY8o6GrGd0=
