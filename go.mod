@@ -3,7 +3,7 @@ module github.com/plexusone/agentkit
 go 1.25.5
 
 require (
-	github.com/a2aproject/a2a-go v0.3.9
+	github.com/a2aproject/a2a-go v0.3.10
 	github.com/cloudwego/eino v0.8.4
 	github.com/go-playground/validator/v10 v10.30.1
 	github.com/grokify/mogo v0.74.0
@@ -13,7 +13,7 @@ require (
 	github.com/plexusone/opik-go v0.6.0
 	github.com/plexusone/phoenix-go v0.2.0
 	github.com/plexusone/vaultguard v0.3.0
-	google.golang.org/adk v0.6.0
+	google.golang.org/adk v1.0.0
 	google.golang.org/genai v1.51.0
 	gopkg.in/yaml.v3 v3.0.1
 )
@@ -105,7 +105,7 @@ require (
 	golang.org/x/text v0.35.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20260311181403-84a4fc48630c // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20260311181403-84a4fc48630c // indirect
-	google.golang.org/grpc v1.79.2 // indirect
+	google.golang.org/grpc v1.79.3 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	rsc.io/omap v1.2.0 // indirect
