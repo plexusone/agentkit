@@ -4,7 +4,7 @@ go 1.25.5
 
 require (
 	github.com/a2aproject/a2a-go v0.3.13
-	github.com/cloudwego/eino v0.8.4
+	github.com/cloudwego/eino v0.8.6
 	github.com/go-playground/validator/v10 v10.30.2
 	github.com/grokify/mogo v0.74.0
 	github.com/plexusone/omnillm v0.14.0
