@@ -14,7 +14,7 @@ require (
 	github.com/plexusone/phoenix-go v0.2.0
 	github.com/plexusone/vaultguard v0.3.0
 	google.golang.org/adk v1.0.0
-	google.golang.org/genai v1.52.1
+	google.golang.org/genai v1.53.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
