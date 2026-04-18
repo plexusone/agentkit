@@ -3,7 +3,7 @@ module github.com/plexusone/agentkit
 go 1.26.0
 
 require (
-	github.com/a2aproject/a2a-go v0.3.13
+	github.com/a2aproject/a2a-go v0.3.15
 	github.com/cloudwego/eino v0.8.10
 	github.com/go-playground/validator/v10 v10.30.2
 	github.com/grokify/mogo v0.74.1
