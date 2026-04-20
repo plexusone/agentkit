@@ -2,114 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://plexusone.github.io/agentkit/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/benefits/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/migration/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/configuration/credentials/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/configuration/secrets/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/design/local-platform/prd/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/design/local-platform/trd/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/getting-started/installation/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/getting-started/local-development/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/getting-started/quick-start/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/packages/agent/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/packages/config/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/packages/http/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/packages/llm/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/packages/orchestration/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/platforms/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/platforms/agentcore-requirements/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/platforms/agentcore/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/platforms/aws-deployment-guide/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/platforms/kubernetes/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/releases/v0.1.0/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/releases/v0.2.0/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/releases/v0.3.0/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/releases/v0.4.0/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/releases/v0.5.0/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
+    </url>
+    <url>
+         <loc>https://plexusone.github.io/agentkit/releases/v0.6.0/</loc>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/server-factories/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/server-factories/a2a/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
     <url>
          <loc>https://plexusone.github.io/agentkit/server-factories/httpserver/</loc>
-         <lastmod>2026-04-06</lastmod>
+         <lastmod>2026-04-20</lastmod>
     </url>
 </urlset>
