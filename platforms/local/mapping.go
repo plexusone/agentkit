@@ -1,7 +1,7 @@
 // Package local provides an embedded local mode for running agents in-process.
 package local
 
-import "github.com/plexusone/omnillm"
+import omnillm "github.com/plexusone/omnillm-core"
 
 // CanonicalToolMap maps multi-agent-spec canonical tool names to AgentKit local tool names.
 // Canonical tools are defined in: https://github.com/plexusone/multi-agent-spec

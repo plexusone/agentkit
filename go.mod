@@ -6,8 +6,9 @@ require (
 	github.com/a2aproject/a2a-go v0.3.15
 	github.com/cloudwego/eino v0.8.10
 	github.com/go-playground/validator/v10 v10.30.2
-	github.com/grokify/mogo v0.74.1
-	github.com/plexusone/omnillm v0.15.1
+	github.com/grokify/mogo v0.74.2
+	github.com/plexusone/omnillm v0.15.2
+	github.com/plexusone/omnillm-core v0.15.0
 	github.com/plexusone/omniobserve v0.8.0
 	github.com/plexusone/omnivault v0.3.0
 	github.com/plexusone/opik-go v0.6.0
@@ -48,7 +49,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/clipperhouse/uax29/v2 v2.7.0 // indirect
 	github.com/cloudwego/base64x v0.1.6 // indirect
-	github.com/dlclark/regexp2 v1.11.5 // indirect
+	github.com/dlclark/regexp2 v1.12.0 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/ebitengine/purego v0.10.0 // indirect
 	github.com/eino-contrib/jsonschema v1.0.3 // indirect
@@ -89,11 +90,10 @@ require (
 	github.com/openai/openai-go v1.12.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.3.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
+	github.com/plexusone/omni-openai v0.2.0 // indirect
 	github.com/plexusone/omnillm-anthropic v0.1.0 // indirect
 	github.com/plexusone/omnillm-bedrock v0.5.0 // indirect
-	github.com/plexusone/omnillm-core v0.15.0 // indirect
 	github.com/plexusone/omnillm-gemini v0.1.0 // indirect
-	github.com/plexusone/omnillm-openai v0.1.0 // indirect
 	github.com/plexusone/posture v0.3.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
 	github.com/segmentio/asm v1.2.1 // indirect

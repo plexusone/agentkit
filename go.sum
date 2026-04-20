@@ -69,8 +69,8 @@ github.com/cloudwego/eino v0.8.10/go.mod h1:+2N4nsMPxA6kGBHpH+75JuTfEcGprAMTdsZE
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/dlclark/regexp2 v1.11.5 h1:Q/sSnsKerHeCkc/jSTNq1oCm7KiVgUMZRDUoRu0JQZQ=
-github.com/dlclark/regexp2 v1.11.5/go.mod h1:DHkYz0B9wPfa6wondMfaivmHpzrQ3v9q8cnmRbL6yW8=
+github.com/dlclark/regexp2 v1.12.0 h1:0j4c5qQmnC6XOWNjP3PIXURXN2gWx76rd3KvgdPkCz8=
+github.com/dlclark/regexp2 v1.12.0/go.mod h1:DHkYz0B9wPfa6wondMfaivmHpzrQ3v9q8cnmRbL6yW8=
 github.com/dnaeon/go-vcr v1.2.0 h1:zHCHvJYTMh1N7xnV7zf1m1GPBF9Ad0Jk/whtQ1663qI=
 github.com/dnaeon/go-vcr v1.2.0/go.mod h1:R4UdLID7HZT3taECzJs4YgbbH6PIGXB6W/sc5OLb6RQ=
 github.com/dustin/go-humanize v1.0.1 h1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=
@@ -138,8 +138,8 @@ github.com/gopherjs/gopherjs v1.17.2 h1:fQnZVsXk8uxXIStYb0N4bGk7jeyTalG/wsZjQ25d
 github.com/gopherjs/gopherjs v1.17.2/go.mod h1:pRRIvn/QzFLrKfvEz3qUuEhtE/zLCWfreZ6J5gM2i+k=
 github.com/gorilla/websocket v1.5.3 h1:saDtZ6Pbx/0u+bgYQ3q96pZgCzfhKXGPqt7kZ72aNNg=
 github.com/gorilla/websocket v1.5.3/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
-github.com/grokify/mogo v0.74.1 h1:oODNqQFBWD4lNEdr5gq0eDMVUUyP26bOEboK9UZycnw=
-github.com/grokify/mogo v0.74.1/go.mod h1:RC7/sy7MsyZSwJesNohN2EkGvgSFeSLvzOw4c/dGdSo=
+github.com/grokify/mogo v0.74.2 h1:sEuHSkp8W0b5WQNTrfX00nC4FtBa1Xk59sHba7HPo3M=
+github.com/grokify/mogo v0.74.2/go.mod h1:s3vcTH43UicVMGkf6bm5hXzXqjuM1CB9MtyQ4+3wIIw=
 github.com/grokify/sogo v0.14.0 h1:BjhTRzur/V9DzPslKy5TLqxLna3O6EXe4b1WLyOIbLM=
 github.com/grokify/sogo v0.14.0/go.mod h1:VlV8J7HJQMs9trLT2qeHYOCcXGhYuuKfd48flANwlX0=
 github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0 h1:5VipnvEpbqr2gA2VbM+nYVbkIF28c5ZQfqCBQ5g2xfk=
@@ -193,8 +193,10 @@ github.com/pelletier/go-toml/v2 v2.3.0/go.mod h1:2gIqNv+qfxSVS7cM2xJQKtLSTLUE9V8
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
-github.com/plexusone/omnillm v0.15.1 h1:HWrx71b5W8L3ZoNbZwV6K7gf6yeg37s5PiphtFYoNmk=
-github.com/plexusone/omnillm v0.15.1/go.mod h1:qWclWsNKKVtVgi4xRh7UFuk0NNkyGB53MbDm4Ueu014=
+github.com/plexusone/omni-openai v0.2.0 h1:PUAdzUMdN0CUoMnmChXwwLJBG21pdETZeOGoRRh5hZM=
+github.com/plexusone/omni-openai v0.2.0/go.mod h1:Mg707EUB4GpClYarm2iHBJX1J5zl6i+YlYX4kFSw4Yk=
+github.com/plexusone/omnillm v0.15.2 h1:XoUM3ghXOEN5nfamZf4U8iFiwhzSVXWrvnI28VqdTzc=
+github.com/plexusone/omnillm v0.15.2/go.mod h1:tU/C58LkQbizUzhFHdu2arEUKndVSnZXnZTc3z73ajo=
 github.com/plexusone/omnillm-anthropic v0.1.0 h1:KK0fUZTwKog8VEa5clWnRA940Y4WsWNBLS9iGsWO1Y0=
 github.com/plexusone/omnillm-anthropic v0.1.0/go.mod h1:z2vU4MTO7HMD+oFcXnxT/+0fe5+AoFk3bnM+R479lFE=
 github.com/plexusone/omnillm-bedrock v0.5.0 h1:AgJna4MGyh8eF2tEPdV0TZ8tdbVTrnNqYWOH1zyiU7Q=
@@ -203,8 +205,6 @@ github.com/plexusone/omnillm-core v0.15.0 h1:yyWCHMiFZh3Dhi3Y5t/esjmfBE7/3UaPQhT
 github.com/plexusone/omnillm-core v0.15.0/go.mod h1:k/RC3lp5N7HP2UcwGxJpYu3xE+F7mrBEqJ76fxur/HA=
 github.com/plexusone/omnillm-gemini v0.1.0 h1:z5cxf/q/BTPhTA6KWMgImwzzK31xqWd63a7I30peflQ=
 github.com/plexusone/omnillm-gemini v0.1.0/go.mod h1:/BcxB0COGUk8YhBiL+yzth2dI89YZN/ZevBiuYPTjLs=
-github.com/plexusone/omnillm-openai v0.1.0 h1:lAZ8WweYEBNH0cSyXVHxnSpr7bZn1VrVMTPhKlihQNw=
-github.com/plexusone/omnillm-openai v0.1.0/go.mod h1:RBAnof2iOM6QX1xnrG6hwBIbf7hUNPqEa3tk6YvU81Y=
 github.com/plexusone/omniobserve v0.8.0 h1:L+nXU8TZrRwKh4KWzAtHVP/tEqopfEMBn9dIZDlqse4=
 github.com/plexusone/omniobserve v0.8.0/go.mod h1:52TqB66Ns4Zgh4t7/ilMmCBdXcUHqjqRIbSGVBGCmK0=
 github.com/plexusone/omnivault v0.3.0 h1:58dKSzhGVTO786kdL8zOkfTrqND+0qqwvsY8o6GrGd0=
