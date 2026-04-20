@@ -46,6 +46,7 @@ agentkit/
 ├── a2a/             # A2A protocol server factory
 ├── agent/           # Base agent framework
 ├── config/          # Configuration management
+├── deploy/          # Deployment provider system
 ├── http/            # HTTP client utilities
 ├── httpserver/      # HTTP server factory
 ├── llm/             # Multi-provider LLM abstraction
@@ -399,6 +400,24 @@ ba, secCfg, err := agent.NewBaseAgentSecure(ctx, "name", timeout, opts...)
 ### `config`
 
 Configuration management with VaultGuard integration.
+
+### `deploy`
+
+Deployment provider system for multi-cloud container deployments.
+
+```go
+import (
+    "github.com/plexusone/agentkit/deploy"
+    _ "github.com/plexusone/agentkit-aws-pulumi/deploy/providers/lightsail"
+)
+
+cfg, _ := deploy.LoadDeployConfig("deploy.yaml")
+provider, _ := deploy.GetProvider(cfg)  // Respects AGENTKIT_DEPLOY_PROVIDER
+defer provider.Close()
+
+status, _ := provider.Deploy(ctx, cfg)
+fmt.Println(status.Outputs["serviceUrl"])
+```
 
 ```go
 cfg := config.LoadConfig()
