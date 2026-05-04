@@ -7,7 +7,7 @@ require (
 	github.com/cloudwego/eino v0.8.13
 	github.com/go-playground/validator/v10 v10.30.2
 	github.com/grokify/mogo v0.74.2
-	github.com/plexusone/omnillm v0.15.2
+	github.com/plexusone/omnillm v0.15.3
 	github.com/plexusone/omnillm-core v0.15.0
 	github.com/plexusone/omniobserve v0.8.0
 	github.com/plexusone/omnivault v0.3.0
@@ -23,7 +23,7 @@ require (
 	cloud.google.com/go v0.123.0 // indirect
 	cloud.google.com/go/auth v0.20.0 // indirect
 	cloud.google.com/go/compute/metadata v0.9.0 // indirect
-	github.com/anthropics/anthropic-sdk-go v1.37.0 // indirect
+	github.com/anthropics/anthropic-sdk-go v1.38.0 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.41.6 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.9 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.32.16 // indirect
@@ -39,7 +39,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sso v1.30.16 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.35.20 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.42.0 // indirect
-	github.com/aws/smithy-go v1.25.0 // indirect
+	github.com/aws/smithy-go v1.25.1 // indirect
 	github.com/bahlo/generic-list-go v0.2.0 // indirect
 	github.com/buger/jsonparser v1.1.2 // indirect
 	github.com/bytedance/gopkg v0.1.4 // indirect
@@ -75,6 +75,7 @@ require (
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/grokify/sogo v0.14.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0 // indirect
+	github.com/invopop/jsonschema v0.13.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/cpuid/v2 v2.3.0 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
@@ -90,10 +91,10 @@ require (
 	github.com/openai/openai-go v1.12.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.3.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
+	github.com/plexusone/omni-anthropic v0.2.0 // indirect
+	github.com/plexusone/omni-aws v0.7.0 // indirect
+	github.com/plexusone/omni-google v0.3.0 // indirect
 	github.com/plexusone/omni-openai v0.2.0 // indirect
-	github.com/plexusone/omnillm-anthropic v0.1.0 // indirect
-	github.com/plexusone/omnillm-bedrock v0.5.0 // indirect
-	github.com/plexusone/omnillm-gemini v0.1.0 // indirect
 	github.com/plexusone/posture v0.3.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
 	github.com/segmentio/asm v1.2.1 // indirect
@@ -132,7 +133,7 @@ require (
 	golang.org/x/text v0.36.0 // indirect
 	google.golang.org/api v0.276.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20260414002931-afd174a4e478 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260414002931-afd174a4e478 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260420184626-e10c466a9529 // indirect
 	google.golang.org/grpc v1.80.0 // indirect
 	google.golang.org/protobuf v1.36.11 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
