@@ -6,7 +6,7 @@ require (
 	github.com/a2aproject/a2a-go v0.3.15
 	github.com/cloudwego/eino v0.8.13
 	github.com/go-playground/validator/v10 v10.30.2
-	github.com/grokify/mogo v0.74.2
+	github.com/grokify/mogo v0.74.4
 	github.com/plexusone/omnillm v0.15.3
 	github.com/plexusone/omnillm-core v0.15.0
 	github.com/plexusone/omniobserve v0.8.0
