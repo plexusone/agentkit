@@ -10,7 +10,7 @@ require (
 	github.com/plexusone/omnillm v0.15.3
 	github.com/plexusone/omnillm-core v0.15.0
 	github.com/plexusone/omniobserve v0.9.0
-	github.com/plexusone/omnivault v0.3.0
+	github.com/plexusone/omnivault v0.5.0
 	github.com/plexusone/opik-go v0.6.0
 	github.com/plexusone/phoenix-go v0.2.0
 	github.com/plexusone/vaultguard v0.3.0
@@ -74,6 +74,7 @@ require (
 	github.com/googleapis/gax-go/v2 v2.22.0 // indirect
 	github.com/goph/emperror v0.17.2 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
+	github.com/grokify/oscompat v0.3.0 // indirect
 	github.com/grokify/sogo v0.15.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0 // indirect
 	github.com/invopop/jsonschema v0.14.0 // indirect

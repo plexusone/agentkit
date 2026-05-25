@@ -142,6 +142,8 @@ github.com/gorilla/websocket v1.5.3 h1:saDtZ6Pbx/0u+bgYQ3q96pZgCzfhKXGPqt7kZ72aN
 github.com/gorilla/websocket v1.5.3/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
 github.com/grokify/mogo v0.74.5 h1:UNS4Ox2kJ4NTt6ySAT3QbDuRHcThcwDnf5iFQ+iFgac=
 github.com/grokify/mogo v0.74.5/go.mod h1:Rz4OegG82u42eOpY+VKM0FtX2UtYDVpMvdUTNIPkYnA=
+github.com/grokify/oscompat v0.3.0 h1:OsZNfRRLkfShSBu8jOLwtVQLj9/gOw3UjVe//XeV5uU=
+github.com/grokify/oscompat v0.3.0/go.mod h1:Ekex/WzHaA39LNt5xbeQRASo74NEXAIqBlqdvNF2oUM=
 github.com/grokify/sogo v0.15.0 h1:RS4DPxNhZQLmz/qcLa5t1Mr+SjGwSZPJgpefp9BJInE=
 github.com/grokify/sogo v0.15.0/go.mod h1:BZjNVHThtkfC80J2kcPWCytQzu5XKtHTxCRffpZaWb8=
 github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0 h1:5VipnvEpbqr2gA2VbM+nYVbkIF28c5ZQfqCBQ5g2xfk=
@@ -213,8 +215,8 @@ github.com/plexusone/omnillm-core v0.15.0 h1:yyWCHMiFZh3Dhi3Y5t/esjmfBE7/3UaPQhT
 github.com/plexusone/omnillm-core v0.15.0/go.mod h1:k/RC3lp5N7HP2UcwGxJpYu3xE+F7mrBEqJ76fxur/HA=
 github.com/plexusone/omniobserve v0.9.0 h1:SlzlKfVP1SWuFUiC1rBLGd2u/6YnNzqlestRJuSefqA=
 github.com/plexusone/omniobserve v0.9.0/go.mod h1:CqbfdFSS/OA8LfP32rQWpoHuK3x+03Lf1O7wytiT/64=
-github.com/plexusone/omnivault v0.3.0 h1:58dKSzhGVTO786kdL8zOkfTrqND+0qqwvsY8o6GrGd0=
-github.com/plexusone/omnivault v0.3.0/go.mod h1:rQc0Tb6IchaJeY/uB076VYKQHwyL+cwaYYdiFkuKhjA=
+github.com/plexusone/omnivault v0.5.0 h1:7oZwP1KNS+XQ1ksoZoKnLS9PV0TQ93b5NEuxO0T2Hwg=
+github.com/plexusone/omnivault v0.5.0/go.mod h1:LQNyI6gTygb3ht4yLhLpHIdcOVALOTGnaO1oJn6+2KE=
 github.com/plexusone/opik-go v0.6.0 h1:OUKhxuVVrTqoPm4JYsa/s7rzC8NdHr1EkvmU0KprJbo=
 github.com/plexusone/opik-go v0.6.0/go.mod h1:800T5ih1QDpLm05rkGuJkZ5umYLiaxvsPMZzk8DSYbA=
 github.com/plexusone/phoenix-go v0.2.0 h1:/RAPKsmTmolAVGa1zZ1iRPnpYmkDOJR/vsukqsRF4uM=
