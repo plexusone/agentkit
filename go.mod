@@ -7,10 +7,10 @@ require (
 	github.com/cloudwego/eino v0.9.0
 	github.com/go-playground/validator/v10 v10.30.2
 	github.com/grokify/mogo v0.74.5
-	github.com/plexusone/omnillm v0.15.3
-	github.com/plexusone/omnillm-core v0.15.0
+	github.com/plexusone/omnillm v0.15.4
+	github.com/plexusone/omnillm-core v0.16.0
 	github.com/plexusone/omniobserve v0.9.0
-	github.com/plexusone/omnivault v0.3.0
+	github.com/plexusone/omnivault v0.5.0
 	github.com/plexusone/opik-go v0.6.0
 	github.com/plexusone/phoenix-go v0.2.0
 	github.com/plexusone/vaultguard v0.3.0
@@ -74,6 +74,7 @@ require (
 	github.com/googleapis/gax-go/v2 v2.22.0 // indirect
 	github.com/goph/emperror v0.17.2 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
+	github.com/grokify/oscompat v0.3.0 // indirect
 	github.com/grokify/sogo v0.15.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.29.0 // indirect
 	github.com/invopop/jsonschema v0.14.0 // indirect
@@ -93,10 +94,10 @@ require (
 	github.com/pb33f/ordered-map/v2 v2.3.1 // indirect
 	github.com/pelletier/go-toml/v2 v2.3.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/plexusone/omni-anthropic v0.2.0 // indirect
-	github.com/plexusone/omni-aws v0.8.0 // indirect
-	github.com/plexusone/omni-google v0.4.0 // indirect
-	github.com/plexusone/omni-openai v0.2.1 // indirect
+	github.com/plexusone/omni-anthropic v0.2.1 // indirect
+	github.com/plexusone/omni-aws v0.8.1 // indirect
+	github.com/plexusone/omni-google v0.4.1 // indirect
+	github.com/plexusone/omni-openai v0.2.2 // indirect
 	github.com/plexusone/posture v0.3.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
 	github.com/segmentio/asm v1.2.1 // indirect
