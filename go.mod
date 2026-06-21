@@ -9,10 +9,10 @@ require (
 	github.com/grokify/mogo v0.74.6
 	github.com/plexusone/omnillm v0.16.1
 	github.com/plexusone/omnillm-core v0.17.0
-	github.com/plexusone/omniobserve v0.10.0
+	github.com/plexusone/omniobserve v0.11.0
 	github.com/plexusone/omnivault v0.5.0
-	github.com/plexusone/opik-go v0.6.0
-	github.com/plexusone/phoenix-go v0.2.0
+	github.com/plexusone/opik-go v0.7.0
+	github.com/plexusone/phoenix-go v0.2.1
 	github.com/plexusone/vaultguard v0.3.0
 	google.golang.org/adk v1.4.0
 	google.golang.org/genai v1.61.0
