@@ -213,8 +213,8 @@ github.com/plexusone/omnillm v0.15.4 h1:Oun0iGqKIcISeTiaPePIezDdmID7wdblc8ZQgH/y
 github.com/plexusone/omnillm v0.15.4/go.mod h1:GPLckAxQkX/zCuNKw8vNlM649WGeFYXatuvNdzH0M/E=
 github.com/plexusone/omnillm-core v0.16.0 h1:ClEEAaAl/jgn0nV65azRAulEkLoMtCZqnWQBJCBH5eU=
 github.com/plexusone/omnillm-core v0.16.0/go.mod h1:0KzNniPwHXVtfRgfyD3fAlaj8RDktQwRrxEFQrXbLtE=
-github.com/plexusone/omniobserve v0.9.0 h1:SlzlKfVP1SWuFUiC1rBLGd2u/6YnNzqlestRJuSefqA=
-github.com/plexusone/omniobserve v0.9.0/go.mod h1:CqbfdFSS/OA8LfP32rQWpoHuK3x+03Lf1O7wytiT/64=
+github.com/plexusone/omniobserve v0.10.0 h1:JzXj6iVPhxlFnmIRptcla1CCNMZIHpNlR8bvESxhJPw=
+github.com/plexusone/omniobserve v0.10.0/go.mod h1:YjBHT5j8Ks1NTgloGez4hYt7eAl6lKWPn9FOfQicSXs=
 github.com/plexusone/omnivault v0.5.0 h1:7oZwP1KNS+XQ1ksoZoKnLS9PV0TQ93b5NEuxO0T2Hwg=
 github.com/plexusone/omnivault v0.5.0/go.mod h1:LQNyI6gTygb3ht4yLhLpHIdcOVALOTGnaO1oJn6+2KE=
 github.com/plexusone/opik-go v0.6.0 h1:OUKhxuVVrTqoPm4JYsa/s7rzC8NdHr1EkvmU0KprJbo=

@@ -9,7 +9,7 @@ require (
 	github.com/grokify/mogo v0.74.5
 	github.com/plexusone/omnillm v0.15.4
 	github.com/plexusone/omnillm-core v0.16.0
-	github.com/plexusone/omniobserve v0.9.0
+	github.com/plexusone/omniobserve v0.10.0
 	github.com/plexusone/omnivault v0.5.0
 	github.com/plexusone/opik-go v0.6.0
 	github.com/plexusone/phoenix-go v0.2.0
