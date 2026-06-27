@@ -11,7 +11,7 @@ require (
 	github.com/plexusone/omnillm-core v0.17.0
 	github.com/plexusone/omniobserve v0.11.0
 	github.com/plexusone/omnivault v0.5.0
-	github.com/plexusone/opik-go v0.7.0
+	github.com/plexusone/opik-go v0.8.0
 	github.com/plexusone/phoenix-go v0.2.1
 	github.com/plexusone/vaultguard v0.3.1
 	google.golang.org/adk v1.4.0

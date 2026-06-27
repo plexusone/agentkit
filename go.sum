@@ -221,8 +221,8 @@ github.com/plexusone/omniobserve v0.11.0 h1:oFApQ2ULGVtmuhAiN0bsPpineL2G+Ncgg2Fc
 github.com/plexusone/omniobserve v0.11.0/go.mod h1:9vfc+8CWwQbNZLurWAdUthzT9en0kfQRxdeV/QRVa9w=
 github.com/plexusone/omnivault v0.5.0 h1:7oZwP1KNS+XQ1ksoZoKnLS9PV0TQ93b5NEuxO0T2Hwg=
 github.com/plexusone/omnivault v0.5.0/go.mod h1:LQNyI6gTygb3ht4yLhLpHIdcOVALOTGnaO1oJn6+2KE=
-github.com/plexusone/opik-go v0.7.0 h1:mocVC0ESQkRZuibTGIGtorb2sDqjFNB22UbRvq8O+vY=
-github.com/plexusone/opik-go v0.7.0/go.mod h1:R26ijXErVixMtBstaPkzz1UftEoN6QPce31qRZfc0xM=
+github.com/plexusone/opik-go v0.8.0 h1:sNjZXYsgJ80cOwNx5DHAdzcOkYO3X17gC18Fjyrh/AA=
+github.com/plexusone/opik-go v0.8.0/go.mod h1:R26ijXErVixMtBstaPkzz1UftEoN6QPce31qRZfc0xM=
 github.com/plexusone/phoenix-go v0.2.1 h1:K5Uy/XHfkFmiCQkBdCmac97TlpLdLzILclRj1/6MG24=
 github.com/plexusone/phoenix-go v0.2.1/go.mod h1:4eJ0Sx3AfLGAQYocmdvCSdHufil1KGOZICwV28GQGnM=
 github.com/plexusone/posture v0.3.0 h1:NsaufOi5XiTzuP2hlD8/ohp3jtLfOyGgKK4z4TsXdbY=
