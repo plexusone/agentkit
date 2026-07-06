@@ -8,7 +8,7 @@ require (
 	github.com/go-playground/validator/v10 v10.30.3
 	github.com/grokify/mogo v0.74.6
 	github.com/plexusone/omnillm v0.16.1
-	github.com/plexusone/omnillm-core v0.17.0
+	github.com/plexusone/omnillm-core v0.18.0
 	github.com/plexusone/omniobserve v0.11.0
 	github.com/plexusone/omnivault v0.5.0
 	github.com/plexusone/opik-go v0.8.0
