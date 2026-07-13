@@ -6,6 +6,16 @@
   "commitConvention": "conventional",
   "releases": [
     {
+      "version": "v0.7.0",
+      "date": "2026-07-13",
+      "highlights": [
+        { "description": "Kubernetes provider support for cloud-agnostic deployments" }
+      ],
+      "added": [
+        { "description": "Add `ProviderKubernetes` constant to enable K8s deployments across EKS, GKE, AKS, and on-prem clusters (`deploy/registry.go`)", "commit": "fc2c7ef" }
+      ]
+    },
+    {
       "version": "v0.6.0",
       "date": "2026-04-20",
       "highlights": [
