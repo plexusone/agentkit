@@ -11,10 +11,11 @@ type ProviderName string
 
 // Standard provider names.
 const (
-	ProviderLightsail ProviderName = "lightsail"
-	ProviderECS       ProviderName = "ecs"
-	ProviderCloudRun  ProviderName = "cloudrun"
-	ProviderDocker    ProviderName = "docker"
+	ProviderLightsail  ProviderName = "lightsail"
+	ProviderECS        ProviderName = "ecs"
+	ProviderCloudRun   ProviderName = "cloudrun"
+	ProviderDocker     ProviderName = "docker"
+	ProviderKubernetes ProviderName = "kubernetes"
 )
 
 // ProviderFactory creates a new Provider instance.
