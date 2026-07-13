@@ -508,7 +508,8 @@ AgentKit has companion modules for Infrastructure-as-Code (IaC) deployment:
 | Module | Purpose | Dependencies |
 |--------|---------|--------------|
 | [agentkit-aws-cdk](https://github.com/plexusone/agentkit-aws-cdk) | AWS CDK constructs for AgentCore | 21 |
-| [agentkit-aws-pulumi](https://github.com/plexusone/agentkit-aws-pulumi) | Pulumi components for AgentCore | 340 |
+| [agentkit-aws-pulumi](https://github.com/plexusone/agentkit-aws-pulumi) | Pulumi components for AWS Lightsail | 340 |
+| [agentkit-k8s-pulumi](https://github.com/plexusone/agentkit-k8s-pulumi) | Pulumi components for Kubernetes (EKS/GKE/AKS) | - |
 
 All modules share the same YAML/JSON configuration schema from `platforms/agentcore/iac/`.
 
