@@ -6,7 +6,7 @@ require (
 	github.com/a2aproject/a2a-go v0.3.15
 	github.com/cloudwego/eino v0.9.15
 	github.com/go-playground/validator/v10 v10.30.3
-	github.com/grokify/mogo v0.74.6
+	github.com/grokify/mogo v0.74.7
 	github.com/plexusone/omnillm v0.17.0
 	github.com/plexusone/omnillm-core v0.18.0
 	github.com/plexusone/omniobserve v0.12.0
@@ -134,7 +134,7 @@ require (
 	go.yaml.in/yaml/v4 v4.0.0-rc.6 // indirect
 	golang.org/x/arch v0.29.0 // indirect
 	golang.org/x/crypto v0.54.0 // indirect
-	golang.org/x/exp v0.0.0-20260718201538-764159d718ef // indirect
+	golang.org/x/exp v0.0.0-20260727155853-b88d891fe743 // indirect
 	golang.org/x/mod v0.38.0 // indirect
 	golang.org/x/net v0.57.0 // indirect
 	golang.org/x/sync v0.22.0 // indirect
