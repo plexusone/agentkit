@@ -14,7 +14,7 @@ require (
 	github.com/plexusone/opik-go v0.8.0
 	github.com/plexusone/phoenix-go v0.2.1
 	github.com/plexusone/vaultguard v0.3.1
-	google.golang.org/adk v1.7.0
+	google.golang.org/adk v1.8.0
 	google.golang.org/genai v1.71.0
 	gopkg.in/yaml.v3 v3.0.1
 )
