@@ -4,7 +4,7 @@ go 1.26.4
 
 require (
 	github.com/a2aproject/a2a-go v0.3.15
-	github.com/cloudwego/eino v0.9.21
+	github.com/cloudwego/eino v0.9.22
 	github.com/go-playground/validator/v10 v10.30.5
 	github.com/grokify/mogo v0.75.0
 	github.com/plexusone/omnillm v0.17.0
@@ -15,7 +15,7 @@ require (
 	github.com/plexusone/phoenix-go v0.2.1
 	github.com/plexusone/vaultguard v0.3.1
 	google.golang.org/adk v1.8.0
-	google.golang.org/genai v1.75.0
+	google.golang.org/genai v1.76.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
